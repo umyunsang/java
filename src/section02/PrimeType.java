@@ -30,6 +30,8 @@ public class PrimeType {
         System.out.println("Double\t: " + dnum);    // 소수점 15자리 까지
         System.out.println("Float\t: " + fnum);     // 소수점 7자리 까지 
 
+        boolean isNan = true;
+        System.out.println(isNan);
         
     }
 }
