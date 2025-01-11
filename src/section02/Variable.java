@@ -1,9 +1,9 @@
 package section02;
 
 public class Variable {
-    public static void main(RefType[] args) {
+    public static void main(String[] args) {
         // 변수 선언
-        RefType name;
+        String name;
         int age;
         char bloodType;
 

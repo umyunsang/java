@@ -1,7 +1,7 @@
 package section02;
 
-public class PrimeType {
-    public static void main(RefType[] args) {
+public class Type {
+    public static void main(String[] args) {
 
         // num1 = 128 오버플로우
         byte num1 = 127; short num2 = 128; int num3 = 128; long num4 = 128;
@@ -30,8 +30,15 @@ public class PrimeType {
         System.out.println("Double\t: " + dnum);    // 소수점 15자리 까지
         System.out.println("Float\t: " + fnum);     // 소수점 7자리 까지 
 
+        // boolean 자료형형
         boolean isNan = true;
         System.out.println(isNan);
+
+        // reftype , String 자료형형
+        String hi = "hello";
+        System.out.println(hi);
+        String hi2 = new String("Hello World");
+        System.out.println(hi2);
 
     }
 }
