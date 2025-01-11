@@ -1,7 +1,7 @@
 package section02;
 
 public class PrimeType {
-    public static void main(String[] args) {
+    public static void main(RefType[] args) {
 
         // num1 = 128 오버플로우
         byte num1 = 127; short num2 = 128; int num3 = 128; long num4 = 128;
@@ -32,6 +32,6 @@ public class PrimeType {
 
         boolean isNan = true;
         System.out.println(isNan);
-        
+
     }
 }
