@@ -11,3 +11,4 @@ public class EX05_01 {
         System.out.println("합: " +sum);
     }
 }
+
