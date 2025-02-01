@@ -1,7 +1,7 @@
 package section07;
 
 class Cat {
-    // 클래스 선언언
+    // 클래스 선언
 }
 
 public class EX07_04 {
